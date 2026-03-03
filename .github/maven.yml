@@ -1,1 +1,5 @@
-
+      - name: Upload JAR artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: vib_ED_tests-jar
+          path: target/*.jar
